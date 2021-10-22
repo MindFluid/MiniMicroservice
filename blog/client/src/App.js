@@ -9,6 +9,7 @@ class App extends Component {
             <h2>MicroService Blog App</h2>
             <PostCreate />
             <hr />
+            <h2>Posts</h2>
             <Posts/>
         </div>
     }
