@@ -25,9 +25,7 @@ export default () => {
             <div className="card-body">
                 <h3>{post.title}</h3>
                 <hr />
-                <ul>
-                    <Comments comments={post.comments} />
-                </ul>
+                <Comments comments={post.comments} />
                 <CommentCreate postId={post.id} />
             </div>
         </div>
