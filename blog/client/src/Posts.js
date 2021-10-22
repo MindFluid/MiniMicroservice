@@ -1,7 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, { useState, Component, useEffect } from 'react';
 import axios from 'axios';
-import { render } from 'react-dom';
 import CommentCreate from './CommentCreate';
 import Comments from './Comments';
 
